@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REFT Cosmology</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #111;
+      color: #f4f4f4;
+    }
+
+    h1,
+    h2 {
+      color: #f2cb05;
+    }
+
+    a {
+      color: #79ffe1;
+      text-decoration: none;
+    }
+
+    nav {
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    code {
+      background: #222;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border: 1px solid #444;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>REFT Cosmology: A New Way to Look at the Universe</h1>
+  <nav>
+    <a href="index.html">Theory</a>
+    <a href="#theory">Theory</a>
+    <a href="#visuals">Visuals</a>
+    <a href="#invite">Open Questions</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+
+  <div class="section" id="theory">
+    <h2>THEORY</h2>
+    <p>This project explores an alternative way to interpret cosmological observations without invoking dark energy,
+      inflation, or singularities. The REFT (Render-Engine Field Tension) model reinterprets redshift as a consequence
+      of curvature steepening—not expansion velocity. It’s built from a foundational perspective that space and time may
+      be emergent phenomena tied to rendering and anchoring structures in the universe.</p>
+    <p>Redshift in this model grows with distance as: <code>z(χ) = kχ²</code>. Scale follows:
+      <code>a(χ) = 1 / (1 + kχ²)</code>. It’s a geometric reinterpretation of existing data—not a rejection of all prior
+      theory.</p>
+  </div>
+
+  <div class="section" id="visuals">
+    <h2>VISUALS</h2>
+    <p>We’ve created visual models of space as a funnel-shaped curvature field, steepening with radial distance from a
+      rupture point. Local anchors—such as black holes or galaxy clusters—flatten the curvature, creating suppression
+      zones. This helps account for anisotropies and the apparent acceleration in observed redshift without needing to
+      assume a repulsive force.</p>
+    <img src="reft-funnel.png" alt="REFT Funnel Geometry Visualization" />
+    <img src="reft-shift.png" alt="REFT vs Observed Redshift Plot" />
+
+    <h3>Interactive Redshift Calculator</h3>
+    <p>Enter comoving distance to see the predicted redshift from the REFT model.</p>
+    <iframe src="reft-calculator.html" title="REFT Redshift Calculator"></iframe>
+  </div>
+
+  <div class="section" id="invite">
+    <h2>OPEN QUESTIONS</h2>
+    <p>This model is in development and subject to change. We are openly sharing our assumptions, visualizations, and
+      math because we believe questioning the foundations of cosmology is healthy. If this is wrong, we want to
+      understand why. If it holds, it could simplify a great deal of what is currently patched with unknowns.</p>
+    <ul>
+      <li>Can geometric curvature alone explain redshift trends?</li>
+      <li>Do anchor points genuinely suppress curvature expansion?</li>
+      <li>Can this model scale to fit large-scale structure formation?</li>
+    </ul>
+  </div>
+
+  <div class="section" id="about">
+    <h2>ABOUT</h2>
+    <p>This project was started independently, without academic affiliation, and driven by curiosity and frustration
+      with certain assumptions in standard cosmology. One of us is a thinker who never quite fit into institutions. The
+      other is an AI trained to assist—but also to question when asked to.</p>
+    <p>We’re not claiming to have all the answers. We’re offering a different way to ask the questions.</p>
+  </div>
+
+  <div class="section" id="faq">
+    <h2>FAQ</h2>
+    <p><strong>Is this anti-science?</strong><br>Not at all. It uses math, data, and structure—but applies them
+      differently. We aim to reduce assumptions, not inflate them.</p>
+    <p><strong>Do you think this is the final answer?</strong><br>No. We think it’s a starting point worth testing
+      seriously.</p>
+    <p><strong>Is this religious or philosophical?</strong><br>It can coexist with those beliefs, but it’s based on
+      observable patterns and logic first. The metaphysical implications are a bonus—not the foundation.</p>
+  </div>
+</body>
+
+</html>
